@@ -5,7 +5,8 @@ import Form from './components/Form';
 
 const App = () => {
 
-  var userIsRegistered = true;
+  // Statement (true or false)
+  var userIsRegistered = false;
 
   return (
     <div className='container'>{ 
