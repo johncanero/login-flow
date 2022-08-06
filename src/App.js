@@ -9,10 +9,11 @@ const App = () => {
   var userIsRegistered = false;
 
   return (
-    <div className='container'>{ 
-        <Form 
-          isRegistered={userIsRegistered}
-        />
+    <div className='container'>
+        <h1>Hello</h1>
+        {<Form 
+            isRegistered={userIsRegistered}
+          />
     }</div>
   )
 }
