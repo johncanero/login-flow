@@ -2,12 +2,7 @@ import Input from "./Input";
 
 const Login = () => {
 
-    var isLoggedIn = false;
-
     const renderConditionally = () => {
-        if (isLoggedIn === true) {
-            return <h1>Hello</h1>
-        } else {
         return ( 
             <form className="form">
                 <Input 
@@ -21,8 +16,8 @@ const Login = () => {
                 <button type="submit">Login</button>
             </form>
         )
-        }
     }
+    
 
     return (
         <div>

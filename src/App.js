@@ -3,16 +3,15 @@ import Login from './components/Login';
 
 
 
-
-
-// Create an "Input" component for the input
-
-
 const App = () => {
+
+  var isLoggedIn = false;
+
   return (
     <div className='container'>
-        <Login />
-    </div>
+        {/* Ternary Operator */}
+        {isLoggedIn === true ? <h1>Hello</h1> : <Login />
+        }</div>
   )
 }
 
