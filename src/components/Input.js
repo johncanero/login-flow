@@ -1,11 +1,7 @@
-const Input = () => {
+const Input = (props) => {
   return (
     <div>
-        <form className="form">
-            <input type="text" placeholder="Username" />
-            <input type="password" placeholder="Password" />
-            <button type="submit">Login</button>
-        </form>
+        <input type={props.type} placeholder={props.placeholder} />
     </div>
   )
 }
