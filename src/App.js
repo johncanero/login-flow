@@ -2,7 +2,6 @@ import './App.css';
 import Form from './components/Form';
 
 
-
 const App = () => {
 
   // Statement (true or false)

@@ -4,9 +4,11 @@ const Form = (props) => {
         <form className="form">
             <input type="text" placeholder="Username" />
             <input type="password" placeholder="Password" />
-           
+
+            {/* && Expression */}
             {props.isRegistered === false && <input type="password" placeholder="Confirm Password"/>}
 
+            {/* ? and : statements */}
             <button type="submit">
                 {props.isRegistered ? "Login" : "Register"}
             </button>
