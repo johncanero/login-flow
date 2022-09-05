@@ -17,7 +17,7 @@
 
 # Login Flow Project
 
-This is theLogin Flow Project in Web Development Bootcamp Course 2022.
+This is the Login Flow Project in Web Development Bootcamp Course 2022.
 It is made with React JS.
 
 Web Development Bootcamp 2022 Project - Login Flow
@@ -36,5 +36,5 @@ Web Development Bootcamp 2022 Project - Login Flow
 ![Desktop View - Login Flow](./src/images/responsive/desktopView.png)
 ![Tablet View - Login Flow](./src/images/responsive/tabletView.png)
 ![Mobile View - Login Flow](./src/images/responsive/mobileView.png)
-![Code View - Login Flow](./src/images/responsive/codeView.png)
+![Code View - Login Flow](./src/images/responsive/codeView1.png)
 ![Code View - Login Flow](./src/images/responsive/codeView2.png)
